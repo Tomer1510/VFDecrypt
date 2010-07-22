@@ -1,8 +1,14 @@
 This is a cross platform dmg decryption tool. Maintained by Drake Allegrini, but credit goes to its original owner.
 
 To build, run "make linux"
-To run, run "./vfdecrypt"
+To install, run "sudo make install"
+To run, run "vfdecrypt"
+To clean, run "make clean"
+To uninstall, run "sudo make uninstall"
 
-Usage: 
-vfdecrypt -i in-file [-p password] [-k key] -o out-file
+Usage: vfdecrypt [-e] [-p password] [-k key] -i in-file -o out-file
+**Option -e attempts to extract key from <in-file>
+
+NOTICE: The -i and -o flags are extremely important, as without them, the program will go into an infinite loop.
+NOTICE: ONLY the -k -i and -o flags have been tested.
 
