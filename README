@@ -1,0 +1,8 @@
+This is a cross platform dmg decryption tool. Maintained by Drake Allegrini, but credit goes to its original owner.
+
+To build, run "make linux"
+To run, run "./vfdecrypt"
+
+Usage: 
+vfdecrypt -i in-file [-p password] [-k key] -o out-file
+
