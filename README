@@ -6,9 +6,10 @@ To run, run "vfdecrypt"
 To clean, run "make clean"
 To uninstall, run "sudo make uninstall"
 
-Usage: vfdecrypt [-e] [-p password] [-k key] -i in-file -o out-file
-**Option -e attempts to extract key from <in-file>
+Usage: vfdecrypt -i in-file [-p password] [-k key] -o out-file
 
-NOTICE: The -i and -o flags are extremely important, as without them, the program will go into an infinite loop.
+NOTICE: The -i and -o flags are extremely important, as without them, the program will never terminate unless forced to.
 NOTICE: ONLY the -k -i and -o flags have been tested.
+
+Some depenedencies may have to be satisifed before this program will compile.
 
