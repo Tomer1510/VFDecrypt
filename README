@@ -13,3 +13,9 @@ NOTICE: ONLY the -k -i and -o flags have been tested.
 
 Some depenedencies may have to be satisifed before this program will compile.
 
+Example: 
+Decrypting iOS 4 in your home directory.
+Once the program is compiled and installed, run:
+
+"vfdecrypt -i name_of_root_filesystem.dmg -k ec6eb0268c4e9f8ab9d003f601e8f4b36f4fc4311c61e5ebed07ce718424ffee7e7d924d -o decrypted.dmg"
+
