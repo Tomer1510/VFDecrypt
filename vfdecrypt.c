@@ -1,5 +1,4 @@
 /*
- * compile: gcc -o vfdecrypt  vfdecrypt.c -lssl
  *
  * Copyright (c) 2006
  * Ralf-Philipp Weinmann <ralf@coderpunks.org>
