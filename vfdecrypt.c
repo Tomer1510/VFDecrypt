@@ -1,5 +1,4 @@
 /*
- *
  * Copyright (c) 2006
  * Ralf-Philipp Weinmann <ralf@coderpunks.org>
  * Jacob Appelbaum <jacob@appelbaum.net>
